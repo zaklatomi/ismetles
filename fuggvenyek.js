@@ -5,7 +5,7 @@ export function cimKiiras(cim) {
   //const h1Elem = document.querySelector("header h1") js
   const h1Elem = $("header"); //jq
 
-  console.log(h1Elem);
+  // console.log(h1Elem);
 
   // h1Elem.innerHTML +="<p>"+cim+"</p>"; js
   h1Elem.append(`<p>${cim}</p>`); //jq
