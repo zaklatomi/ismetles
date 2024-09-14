@@ -6,6 +6,7 @@ export default class Kartyak{
     constructor(lista, szuloElem){
         this.#lista = lista
         this.szuloElem = szuloElem
+        this.szuloElem.empty();
 
         this.#kartyakKiir()
     }
